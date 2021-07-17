@@ -11,10 +11,6 @@ import Rank from './components/Rank/Rank';
 import 'tachyons';
 import './App.css';
 
-const app = new Clarifai.App({
-  apiKey: '9a5285788ab24831b3b3d4fbca66ef6e'
-});
-
 const particlesOptions = {
   particles: {
 		number: {
